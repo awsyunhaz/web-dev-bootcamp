@@ -1,0 +1,12 @@
+query submitted to ISP: DNS turns Domain name -> IP address (www.udemy.com -> 23.235.47.175)
+request finds the fastest path to the server with the specified IP via HTTP (hopping from server to server)
+Udemy server response with any combination of HTML, CSS and JS: 1. figure out what is asked for	2. pull information from database, build content
+Browser: turns information to human-readable contents
+
+HTML: defines structure of a webpage
+CSS: defines styles of HTML
+JavaScript: adds logic and interactivity to a page
+
+HTTP request:
+1. get - retrieve data (search)
+2. post - send data to be added to database, post to server (sign up)

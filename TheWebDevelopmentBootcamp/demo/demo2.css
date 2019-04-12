@@ -1,0 +1,13 @@
+body{
+	background: url(https://cdn.pixabay.com/photo/2016/06/17/06/04/background-1462755_1280.jpg);
+	background-size: cover;
+}
+
+h1{
+	color: #FF0000;
+	border: 2px solid black;
+}
+
+li{
+	color: rgba(100, 0, 100, 0.5);
+}

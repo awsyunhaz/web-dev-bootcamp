@@ -1,0 +1,9 @@
+p{
+	width: 50%;
+	height: 40px;
+	border: 2px solid blue;
+	padding-left: 40px;
+	/*top right bottom left*/
+	margin: 50px 80px 100px 50px;
+	margin: 20px auto;
+}

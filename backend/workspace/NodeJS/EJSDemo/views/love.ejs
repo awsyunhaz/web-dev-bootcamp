@@ -1,0 +1,12 @@
+<% include partials/header %>
+
+<!--%= render the variable value to html-->
+<h1>You fell in love with <%=thingVariable.toUpperCase()%></h1>
+
+<% if (thingVariable.toLowerCase()==="rusty"){ %>
+    <p>Good Choice!</p>
+<% } else{ %>
+    <p>Bad Choice!</p>
+<% } %>
+        
+<% include partials/footer %>

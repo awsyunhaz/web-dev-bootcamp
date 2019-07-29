@@ -11,6 +11,20 @@ HTTP request:
 1. get - retrieve data (search)
 2. post - send data to be added to database, post to server (sign up)
 
-
 CSS
 Box model: content, padding, border, margin
+
+JavaScript
+Tricky Stuff
+1. `this` -> closest parent object
+the global object (window)
+2. Strict mode 
+"use strict" 
+-> `this` becomes undifined
+3. To set the value of `this`:
+call(thisArg, a, b, c, ...) - invoke immediately
+apply(thisArg, [a, b, c, ...])
+bind(thisArg, a, b, c, ...) - not invoke immediately
+ -> return function definition
+ -> useful when we do not know all values of argument
+4. `new` set the context of `this`

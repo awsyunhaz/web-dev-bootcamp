@@ -13,7 +13,7 @@
     
     <div class="row">
         <% campgrounds.forEach(function(campground){ %>
-            <div class="col-md-3" "col-sm-6">
+            <div class="col-md-3">
                 <div class="thumbnail">
                     <img src="<%= campground.image %>">
                     <div class="caption">
@@ -27,4 +27,5 @@
         <% }); %>
     </div>
 </div>
+
 <% include ../partials/footer %>

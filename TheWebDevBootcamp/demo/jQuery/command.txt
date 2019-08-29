@@ -1,0 +1,30 @@
+$(h1).css("color", "yellow");
+document.querySelector("h1").style.color = "yellow";
+
+#Style multiple elements at once
+var styles = {
+	color: "red",
+	background: "pink",
+	border: "2px solid purple"
+};
+$(li).css(styles);
+
+#Common methods
+.text()
+.html()
+.attr() # Retrieve or set attributes
+.val()	# Get the value of the first matched element
+.addClass() .removeClass() .toggleClass()
+
+#Events
+.click() #.click(function(){$(this).css("background","pink")});
+.keypress() # react only hit enter: .keypress(function(event){if (event.which==13) do something})
+.mouseenter() .mouseleave()
+.on() # .on("click", function(){do something})
+click() only adds listeners for existing elements
+on() will add listeners for all potential future elements
+
+#Effects
+.fadeIn() .fadeOut() .fadeToggle()
+.slideUp() .slideDown() .slideToggle()
+.remove()

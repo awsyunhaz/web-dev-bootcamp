@@ -1,0 +1,6 @@
+[submodule "TheRichBank"]
+	path = TheRichBank
+	url = https://git.heroku.com/the-rich-bank.git
+[submodule "TheWebDevBootcamp/backend/workspace/YelpCamp"]
+	path = TheWebDevBootcamp/backend/workspace/YelpCamp
+	url = https://git.heroku.com/webdevbootcamp-yelpcamp.git
